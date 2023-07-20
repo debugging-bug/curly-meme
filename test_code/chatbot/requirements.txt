@@ -1,0 +1,7 @@
+nltk
+jsonlib
+numpy 
+pickle5
+tensorflow
+keras
+random2
