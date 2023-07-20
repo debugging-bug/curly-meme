@@ -1,0 +1,49 @@
+{"intents": [
+  {"tag": "greetings",
+   "patterns": ["Hello", "Hi", "Hey", "Hola", "Good day", "Good evening", "Good afternoon", "Good morning"],
+   "responses": ["Hello, how can I help you?", "Hi there, how can I help you?", "Hello, how can I be of service?"],
+   "context": [""]
+  },
+  {"tag": "goodbye",
+   "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time"],
+   "responses": ["See you!", "Have a nice day", "Bye! Come back again soon."],
+   "context": [""]
+  },
+  {"tag": "thanks",
+   "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+   "responses": ["Happy to help!", "Any time!", "My pleasure"],
+   "context": [""]
+  },
+  {"tag": "noanswer",
+   "patterns": [],
+   "responses": ["Sorry, can't understand you", "Please give me more info", "Not sure I understand"],
+   "context": [""]
+  },
+  {"tag": "goodbye",
+   "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time"],
+   "responses": ["See you!", "Have a nice day", "Bye! Come back again soon."],
+   "context": [""]
+  },
+  {"tag": "youtube",
+    "patterns": ["open youtube", "i want to watch something", "i want to see videos"],
+    "responses": ["opening youtube"],
+    "context": [""]
+   },
+   {"tag": "google",
+    "patterns": ["open google", "i want to google something", "i need to search for something"],
+    "responses": ["opening google"],
+    "context": [""]
+   },
+   {"tag": "amazon",
+    "patterns": ["open amazon", "i want to buy something", "i need to buy something"],
+    "responses": ["opening amazon"],
+    "context": [""]
+   },
+   {"tag": "github",
+    "patterns": ["open github", "i want to code", "i want to take a look at the repositories"],
+    "responses": ["opening github"],
+    "context": [""]
+   }
+  
+]
+}
